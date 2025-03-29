@@ -27,11 +27,11 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: `http://localhost:${process.env.PORT || 3000}`,
+        url: `http://localhost:${process.env.PORT || 4000}`,
         description: 'Servidor local HTTP'
       },
       {
-        url: `https://localhost:${process.env.HTTPS_PORT || 3001}`,
+        url: `https://localhost:${process.env.HTTPS_PORT || 4001}`,
         description: 'Servidor local HTTPS'
       },
     ],
