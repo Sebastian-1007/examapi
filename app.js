@@ -64,8 +64,8 @@ app.use('/api', routes);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Puertos
-const HTTP_PORT = process.env.PORT || 3000;
-const HTTPS_PORT = process.env.HTTPS_PORT || 3001;
+const HTTP_PORT = process.env.PORT || 4000;
+const HTTPS_PORT = process.env.HTTPS_PORT || 4001;
 
 // Servidor HTTP (original)
 http.createServer(app).listen(HTTP_PORT, () => {
